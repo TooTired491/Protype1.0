@@ -1,0 +1,186 @@
+body{
+background-color: #e1d2b3;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+.container { 
+margin: 0;
+padding: 0;
+width: 100vw;
+background-color: #b20303;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-around;
+max-width: 100%;
+height: auto;
+}
+h1{
+  font-family: Franklin Gothic Medium, serif;
+  color: #fefae0;
+  font-size: 35px;
+  word-spacing: 7px;
+}
+ul, li {
+  font-size: 15px;
+  display: flex;
+  padding: 1px;
+  margin: 5px;
+}
+a{
+color: #0e0e0c;
+}
+
+button{
+  cursor: pointer;
+  margin: 2px;
+  padding: 20px;
+background-color:#e7c651;
+  border-radius: 20px;
+  word-spacing: 7px;
+  font-weight: bold;
+}
+/*imgtxt*/
+img{
+  display: flex;
+  background-size: contain;
+  max-width: 100%; and height: auto;
+  margin: 0px;
+  padding: 0;
+  width: 18in;
+}
+
+/*underpic*/
+main{
+ font-family: Verdana, sans-serif;
+ color: #283618;
+}
+h2{
+  font-family: Franklin Gothic Medium, serif;
+  text-align: center;
+  color: #940114;
+  font-size: 34px;
+}
+
+#Plan {
+	background-color: #002a1d;
+  color: white;
+  padding: 14px 43px;
+  text-align: center;
+  display: inline-block;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+ font-family: Georgia, serif;
+  font-weight: bold;
+ justify-content: center;
+  align-items: center;
+}
+/*section*/
+.CCC Mission Statement {
+ margin: 0;
+ padding: 0
+}
+h3{
+  font-family: Franklin Gothic Medium, serif;
+ display: flex;
+ justify-content: center;
+  font-size:24px;
+  color: #940114;
+}
+p{
+display: flex;
+justify-content: center;
+background-color: #ffd436;
+padding: 20px;
+border-radius: 20px;
+margin: auto;
+font-family: Trebuchet MS, sans-serif;
+word-spacing: 0.5px;
+}
+
+/*article*/
+ .History{
+ display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ffd436;
+padding: 20px;
+border-radius: 20px;
+margin: auto;
+}
+h6{
+  color: #283618;
+  font-size: 25px;
+   text-align: center;
+  font-family: Franklin Gothic Medium, serif;
+
+}
+.Info{
+font-family: Trebuchet MS, sans-serif; color: #283618;
+word-spacing: 0.5px;
+}
+/*Photos*/
+.Photos {
+  margin: 5px 0 20px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-comtainer: center;
+  gap: 10px;
+}
+.h3{
+  font-family: Franklin Gothic Medium, serif;
+ display: flex;
+ justify-content: center;
+  font-size:24px;
+  color: #940114;
+}
+.Photos img{
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #002a1d;
+  transition: all ease-in-out 0.5s;
+}
+.Photos img:hover {
+  width: 50%;
+}
+/*footer*/
+footer {
+  margin: 0;
+  padding: 0;
+}
+#btmnav{
+background-color: #b20303;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-around;
+max-width: auto;
+height: auto;
+bottom: 0;
+}
+h5{
+text: left;
+align: flex-start;
+justify: flex-start;
+color: #fefae0;
+font-size: 19px;
+font-family: Franklin Gothic Medium, serif;
+word-spacing: 4px;
+
+}
+ol{
+  margin: 0.5px;
+  padding: 36px;
+  color: #fefae0;
+  border-radius: 20 px;
+  word-spacing: 2px;
+  margin-bottom: 0px;
+}
